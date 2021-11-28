@@ -20,7 +20,7 @@ a revoir pour ajouter des "id" a chaque définition du glossaire pour faciliter 
 
 Les imprimantes 3D sont déjà en train de révolutionner le monde. Cette nouvelle technologie est d’ores et déjà accessible au plus grand nombre, que ce soit via des services d’impression 3D (en ligne ou en magasin) ou directement chez soi avec les modèles les plus abordables. Il convient donc de faire le point sur l’impression 3D pour bien comprendre de quoi il s’agit.
 
-Vous lirez ci-dessous une présentation assez simple qui explique les bases de l’impression 3D. Pour en savoir davantage et aborder la technique, vous pouvez [**lire ce guide du forum**](/forum/topic/10572-limpression-3d/).
+Vous lirez ci-dessous une présentation assez simple qui explique les bases de l’impression 3D. Pour en savoir davantage et aborder la technique, vous pouvez [**lire ce guide du forum**](www.lesimprimantes3d.fr/forum/topic/10572-limpression-3d/).
 
 **C’est quoi une imprimante 3D ?**
 ----------------------------------
@@ -64,6 +64,8 @@ Tous ces acronymes et mots parfois difficiles à prononcer qui peuvent faire pen
 
 [A](#glossaire-a) – [B](#glossaire-b) – [C](#glossaire-c) – [D](#glossaire-d) – [E](#glossaire-e) – [F](#glossaire-f) – [G](#glossaire-g) – [H](#glossaire-h) – [I](#glossaire-i) – [J](#glossaire-j) – [K](#glossaire-k) – [L](#glossaire-l) – [M](#glossaire-m) – [N](#glossaire-n) – [O](#glossaire-o) – [P](#glossaire-p) – [Q](#glossaire-q) – [R](#glossaire-r) – [S](#glossaire-s) – [T](#glossaire-t) – [U](#glossaire-u) – [V](#glossaire-v) – [W](#glossaire-w) – [X](#glossaire-x) – [Y](#glossaire-y) – [Z](#glossaire-z)
 
+<a name="glossaire-a"></a>
+
 ![glossaire a](https://www.lesimprimantes3d.fr/wp-content/uploads/2013/05/glossaire-a.png)
 
 #### **ABS**, Acrylonitrile Butadiene Styrene :
@@ -74,6 +76,7 @@ Polymère thermoplastique utilisé par de nombreuses imprimantes 3D. C’est un 
 
 Méthode d’assemblage par couches. La fabrication additive s’oppose aux processus industriels de fabrication soustractive, par exemple un menuisier qui enlève de la matière à son morceau de bois pour en faire un objet fini.
 
+<a name="glossaire-b"></a>
 ![glossaire b](https://www.lesimprimantes3d.fr/wp-content/uploads/2013/05/glossaire-b.png)
 
 #### **Bowden** :
@@ -82,12 +85,13 @@ Système d’extrusion dont le moteur n’est pas directement connecté à la bu
 
 #### **Brim(s) :**
 
-Fine couche de support ajoutée sous les objets à faible surface de contact avec le plateau d’impression, facile à décoller de l’objet imprimé. Cela permet une meilleure accroche pour un travail de post-production moins fastidieux qu’avec le [Raft](/impression-3d-pour-les-nuls/#glossaire-r).
+Fine couche de support ajoutée sous les objets à faible surface de contact avec le plateau d’impression, facile à décoller de l’objet imprimé. Cela permet une meilleure accroche pour un travail de post-production moins fastidieux qu’avec le [Raft](#raft-).
 
 #### **Buse** :
 
-Voir définition de [Nozzle](/impression-3d-pour-les-nuls/#glossaire-n).
+Voir définition de [Nozzle](#nozzle-).
 
+<a name="glossaire-c"></a>
 ![glossaire c](https://www.lesimprimantes3d.fr/wp-content/uploads/2013/05/glossaire-c.png)
 
 #### **CAD**, Computed Aided Design :
@@ -101,7 +105,7 @@ Désigne la conception virtuelle à l’aide de logiciels et de techniques de mo
 
 #### **CFF**, Composite Filament Fabrication :
 
-Technologie de fabrication additive à base de matériaux composites employée pour la première fois par l’imprimante 3D [MarkForged Mark One](/comparateur/imprimante3d/markforged/mark-one/ "Imprimante 3D MarkForged Mark One : caractéristiques, prix, tests..."), la première imprimante 3D compatible avec la fibre de carbone.
+Technologie de fabrication additive à base de matériaux composites employée pour la première fois par l’imprimante 3D [MarkForged Mark One](https://www.lesimprimantes3d.fr/comparateur/imprimante3d/markforged/mark-one/ "Imprimante 3D MarkForged Mark One : caractéristiques, prix, tests..."), la première imprimante 3D compatible avec la fibre de carbone.
 
 #### **CJP**, ColorJet Printing :
 
@@ -113,17 +117,18 @@ Machine-outil à commande numérique.
 
 #### **Cordage** :
 
-Voir définition de [Stringing](/impression-3d-pour-les-nuls/#glossaire-s).
+Voir définition de [Stringing](#stringing-).
 
 #### **Crowdfunding** :
 
 Expression qui désigne la finance (ou collecte) participative visant le financement de divers projets par des acteurs ordinaires (principalement des internautes). Les plateformes les plus connues sont Kickstarter et le Français KissKissBankBank.
 
+<a name="glossaire-d"></a>
 ![glossaire d](https://www.lesimprimantes3d.fr/wp-content/uploads/2013/05/glossaire-d.png)
 
 #### **Décollement** :
 
-Voir [warping](/impression-3d-pour-les-nuls/#glossaire-w).
+Voir [warping](#warping-).
 
 #### **DLP** :
 
@@ -137,11 +142,12 @@ Procédé de frittage de métal permettant une grande précision avec des couche
 
 La gestion numérique des droit a pour objectif de contrôler l’utilisation qui est faite des œuvres numériques via différentes techniques comme le tatouage qui facilite le traçage ou le zonage géographique (comme pour les DVD).
 
+<a name="glossaire-e"></a>
 ![glossaire e](https://www.lesimprimantes3d.fr/wp-content/uploads/2013/05/glossaire-e.png)
 
 #### **Elephant’s foot** :
 
-Le phénomène de la patte d’éléphant est principalement détecté lors des impressions sans support ([Raft](/impression-3d-pour-les-nuls/#glossaire-r)) où les premières couches s’écrasent sur le plateau (pour une bonne adhérence) et sont du coup plus larges que les suivantes.
+Le phénomène de la patte d’éléphant est principalement détecté lors des impressions sans support ([Raft](#raft-)) où les premières couches s’écrasent sur le plateau (pour une bonne adhérence) et sont du coup plus larges que les suivantes.
 
 #### **Epaisseur de couche** :
 
@@ -151,7 +157,8 @@ En anglais Layer height, c’est la hauteur de chaque couche de filament dépos�
 
 Dans le domaine de l’impression 3D, l’extrusion désigne la création d’une forme tridimensionnelle à partir d’un objet plan.
 
-![glossaire ](https://www.lesimprimantes3d.fr/wp-content/uploads/2013/05/glossaire-f.png)
+<a name="glossaire-f"></a>
+![glossaire f](https://www.lesimprimantes3d.fr/wp-content/uploads/2013/05/glossaire-f.png)
 
 #### **FabLab**, Fabrication Laboratory :
 
@@ -168,7 +175,7 @@ Dépôt de filaments de plastique en fusion par une buse, le plastique fondu est
     Feeder
     
 
-Système composé d’un roulement, d’une roue crantée, d’un ressort et d’un moteur pas à pas pour pousser le filament jusqu’à la buse dans les montages de type [Bowden](/impression-3d-pour-les-nuls/#glossaire-b).
+Système composé d’un roulement, d’une roue crantée, d’un ressort et d’un moteur pas à pas pour pousser le filament jusqu’à la buse dans les montages de type [Bowden](#bowden-).
 
 #### **FFF**, Fused Filament Fabrication :
 
@@ -184,40 +191,47 @@ Une technologie inspirée de la stéréolithographie qui utilise la céramique c
 
 #### **FLS**, Frittage Laser Sélectif :
 
-Équivalent [SLS](/impression-3d-pour-les-nuls/#glossaire-s "Glossaire de l'impression 3D - lettre S | Les Imprimantes 3D .fr") (Selective Laser Sintering).
+Équivalent [SLS](#sls-selective-laser-sintering-) (Selective Laser Sintering).
 
 #### **FTI**, Film Transfert Imaging :
 
 Une image en 2D est affichée par un vidéoprojecteur intégré à l’imprimante 3D, un film transparent reçoit une couche de résine liquide pour une reconstitution couche par couche.
 
+<a name="glossaire-g"></a>
 ![glossaire g](https://www.lesimprimantes3d.fr/wp-content/uploads/2013/05/glossaire-g.png)
 
 #### **G-Code** :
 
-Langage de programmation de commande numérique (CN) permettant de définir des séquences d’instructions pour piloter des machines-outil à commande numérique (CNC, imprimantes 3D, etc.). Cette programmation est généralement automatisée à partir des modèles 3D réalisés en [CAO](/impression-3d-pour-les-nuls/#glossaire-r). Le gcode est le type de fichier que l’on dépose sur une clé USB pour imprimer en direct depuis l’imprimante 3D.
+Langage de programmation de commande numérique (CN) permettant de définir des séquences d’instructions pour piloter des machines-outil à commande numérique (CNC, imprimantes 3D, etc.). Cette programmation est généralement automatisée à partir des modèles 3D réalisés en [CAO](#cao-conception-assistée-par-ordinateur-). Le gcode est le type de fichier que l’on dépose sur une clé USB pour imprimer en direct depuis l’imprimante 3D.
 
+<a name="glossaire-h"></a>
 ![glossaire h](https://www.lesimprimantes3d.fr/wp-content/uploads/2013/06/glossaire-h.png)
 
 ####  **HIPS** :
 
 High Impact Polystyrene ([polystyrène choc](https://fr.wikipedia.org/wiki/Polystyr%C3%A8ne_choc "Polystyrène choc sur Wikipédia .fr") en français).
 
+<a name="glossaire-i"></a>
 ![glossaire i](https://www.lesimprimantes3d.fr/wp-content/uploads/2013/06/glossaire-i.png)
 
 #### **Infill** :
 
 Remplissage de l’objet. Ce paramètre souvent exprimé en pourcentage définit la quantité de matière (non visible) à déposer à l’intérieur de l’objet. Cela permet de faire varier le curseur entre économie de plastique, vitesse d’impression et solidité de l’objet.
 
+<a name="glossaire-j"></a>
 ![glossaire j](https://www.lesimprimantes3d.fr/wp-content/uploads/2013/06/glossaire-j.png)
 
 #### **Jupe** :
 
 Sorte de contour de l’objet qui sera imprimé. Permet de définir l’amplitude de l’impression mais aussi de fondre les premiers centimètres de filament pour avoir ensuite un flux régulier sur l’objet.
 
+<a name="glossaire-k"></a>
 ![glossaire k](https://www.lesimprimantes3d.fr/wp-content/uploads/2013/06/glossaire-k.png)
 
+<a name="glossaire-l"></a>
 ![glossaire l](https://www.lesimprimantes3d.fr/wp-content/uploads/2013/06/glossaire-l.png)
 
+<a name="glossaire-m"></a>
 ![glossaire m](https://www.lesimprimantes3d.fr/wp-content/uploads/2013/06/glossaire-m.png)
 
 #### **Machine-outil** :
@@ -244,12 +258,14 @@ Développé par 3D Systems, le modelage à jets multiples permet des impressions
 
 [SLA](#glossaire-s) avec exposition sélective de la résine grâce à un masque créé par un écran  LCD.
 
+<a name="glossaire-n"></a>
 ![glossaire n](https://www.lesimprimantes3d.fr/wp-content/uploads/2013/06/glossaire-n.png)
 
 #### **![nozzle buse extrudeur](https://www.lesimprimantes3d.fr/wp-content/uploads/2018/10/nozzle.jpg)Nozzle** :
 
-Il s’agit précisément de l’élément par lequel sort le filament de plastique fondu d’une imprimante 3D [FDM](/impression-3d-pour-les-nuls/#glossaire-f). En français, on dit “buse” et “extrudeur”.
+Il s’agit précisément de l’élément par lequel sort le filament de plastique fondu d’une imprimante 3D [FDM](#fdm--fused-deposition-modeling-). En français, on dit “buse” et “extrudeur”.
 
+<a name="glossaire-o"></a>
 ![glossaire o](https://www.lesimprimantes3d.fr/wp-content/uploads/2013/06/glossaire-o.png)
 
 #### **Oozing** :
@@ -264,6 +280,7 @@ Désigne les logiciels dont la licence respecte les critères établis par l’O
 
 Parties des modèles en porte-à-faux, c’est à dire à imprimer dans le vide (par exemple un pont, seuls les piliers touchent le plateau d’impression). Il est parfois nécessaire de les soutenir par des supports.
 
+<a name="glossaire-p"></a>
 ![glossaire p](https://www.lesimprimantes3d.fr/wp-content/uploads/2013/06/glossaire-p.png)
 
 #### **PC** :
@@ -272,7 +289,7 @@ Plastique à base de polycarbonate offrant d’excellentes propriétés mécaniq
 
 #### **Pillowing** :
 
-Défaut d’impression qui peut apparaître sur les surfaces supérieures du modèle. Aussi appelés creux, trous ou cratères dans le jargon français, ils sont souvent synonyme d’un mauvais remplissage de l’objet. Ce dernier peu être dû à un [infill](/impression-3d-pour-les-nuls/#glossaire-i) pas assez dense ou à un manque de refroidissement de ce dernier qui fait qu’il s’affaisse.
+Défaut d’impression qui peut apparaître sur les surfaces supérieures du modèle. Aussi appelés creux, trous ou cratères dans le jargon français, ils sont souvent synonyme d’un mauvais remplissage de l’objet. Ce dernier peu être dû à un [infill](#infill-) pas assez dense ou à un manque de refroidissement de ce dernier qui fait qu’il s’affaisse.
 
 #### **PLA**, PolyLactic Acid :
 
@@ -290,14 +307,17 @@ Composant principal de la pâte à modeler, mélange de cire et d’huile.
 
 Polymère synthétique principalement utilisé dans la fabrication de colles dites “colles blanches”. Il a pour particularité d’être translucide et est utilisé en impression 3D pour sa capacité à se dissoudre dans l’eau chaude. Les imprimantes 3D à plusieurs têtes d’extrusion l’utilisent souvent pour la construction des supports soutenant des portes-à-faux ne nécessitant ainsi que peu de travail post-impression.
 
+<a name="glossaire-q"></a>
 ![glossaire q](https://www.lesimprimantes3d.fr/wp-content/uploads/2013/06/glossaire-q.png)
 
+<a name="glossaire-r"></a>
 ![glossaire r](https://www.lesimprimantes3d.fr/wp-content/uploads/2013/06/glossaire-r.png)
 
 #### **Raft** :
 
-Plusieurs couches de support ajoutées sous les objets pour favoriser leur accroche au plateau. L’accroche étant plus forte qu’avec le [Brim](/impression-3d-pour-les-nuls/#glossaire-b) le travail de retrait en post-production est de ce fait plus fastidieux. C’est une technique employée contre le [Warping](/impression-3d-pour-les-nuls/#glossaire-w).
+Plusieurs couches de support ajoutées sous les objets pour favoriser leur accroche au plateau. L’accroche étant plus forte qu’avec le [Brim](#brims-) le travail de retrait en post-production est de ce fait plus fastidieux. C’est une technique employée contre le [Warping](#warping-).
 
+<a name="glossaire-s"></a>
 ![glossaire s](https://www.lesimprimantes3d.fr/wp-content/uploads/2013/06/glossaire-s.png)
 
 #### **Shell** :
@@ -306,7 +326,7 @@ Référence à la coque / coquille d’un modèle creux. Le nombre de shells rep
 
 #### **Slicer** :
 
-Logiciel qui « tranche » le modèle 3D en couches horizontales pour que l’imprimante 3D les imprime. Il est aussi appelé « trancheur » en français. C’est cette application qui va aussi définir le taux de remplissage de l’impression 3D. Par exemple, le logiciel [Cura](/tag/cura/) permet de slicer un fichier STL et le transformer en GCODE, format compréhensible par une imprimante3D.
+Logiciel qui « tranche » le modèle 3D en couches horizontales pour que l’imprimante 3D les imprime. Il est aussi appelé « trancheur » en français. C’est cette application qui va aussi définir le taux de remplissage de l’impression 3D. Par exemple, le logiciel [Cura](https://www.lesimprimantes3d.fr/tag/cura/) permet de slicer un fichier STL et le transformer en GCODE, format compréhensible par une imprimante3D.
 
 #### **Skirt** :
 
@@ -332,38 +352,47 @@ Type de fichier 3D le plus populaire. Les plateformes de téléchargement de fic
 
 Phénomène de fil indésirable plus ou moins épais qui apparaît sur le chemin de la buse entre les différents éléments d’une pièce imprimées en 3D. Cela se produit lors que la température d’extrusion est trop élevée, que la buse se déplace trop lentement et que la rétraction est trop courte. Il faut donc jouer sur ces 3 paramètres pour obtenir une impression plus propre.
 
+<a name="glossaire-t"></a>
+
 ![glossaire t](https://www.lesimprimantes3d.fr/wp-content/uploads/2013/06/glossaire-t.png)
+
+<a name="glossaire-u"></a>
 
 ![glossaire u](https://www.lesimprimantes3d.fr/wp-content/uploads/2013/06/glossaire-u.png)
 
+<a name="glossaire-v"></a>
 ![glossaire v](https://www.lesimprimantes3d.fr/wp-content/uploads/2013/06/glossaire-v.png)
 
 #### **Voxel** :
 
 Valeur sur une grille régulière dans un espace tridimentionnel, en résumé il s’agit d’un pixel en trois dimensions.
 
+<a name="glossaire-w"></a>
 ![glossaire w](https://www.lesimprimantes3d.fr/wp-content/uploads/2013/06/glossaire-w.png)
 
 #### **Warping** :
 
-Phénomène de décollement de l’objet du plateau (souvent au niveau des coins) lorsque le plastique refroidit et se rétracte, entraînant une déformation du modèle. Pour y remédier il existe différentes solutions : [spray Dimafix](/test-dimafix-spray-anti-warping-20150616/), colle Hu-Hu, scotch Kapton ou Blue Tape, plateau Buildtak, plateau chauffant, [Raft](/impression-3d-pour-les-nuls/#glossaire-r), [Brim](/impression-3d-pour-les-nuls/#glossaire-b), etc.
+Phénomène de décollement de l’objet du plateau (souvent au niveau des coins) lorsque le plastique refroidit et se rétracte, entraînant une déformation du modèle. Pour y remédier il existe différentes solutions : [spray Dimafix](https://www.lesimprimantes3d.fr/test-dimafix-spray-anti-warping-20150616/), colle Hu-Hu, scotch Kapton ou Blue Tape, plateau Buildtak, plateau chauffant, [Raft](#raft-), [Brim](#brims-), etc.
 
 #### **Wobble** :
 
 Phénomène d’oscillations cycliques observé sur les imprimantes 3D dont la tête d’impression n’arrive pas à se positionner correctement entre chaque couche. Cela provoque un motif oscillant ressemblant souvent à des vaguelettes sur l’objet imprimé selon l’axe Z. Les causes principales sont souvent les tiges filetées ou des contraintes au niveau du guidage et de la motorisation du Z.
 
+<a name="glossaire-x"></a>
 ![glossaire x](https://www.lesimprimantes3d.fr/wp-content/uploads/2013/06/glossaire-x.png)
 
 #### **X axis** :
 
 L’axe des X, la ligne horizontale. ![axe xyz x y z](https://www.lesimprimantes3d.fr/wp-content/uploads/2018/10/axe-xyz.jpg)
 
+<a name="glossaire-y"></a>
 ![glossaire y](https://www.lesimprimantes3d.fr/wp-content/uploads/2013/06/glossaire-y.png)
 
 #### **Y axis** :
 
 L’axe des Y, la ligne verticale.
 
+<a name="glossaire-z"></a>
 ![glossaire z](https://www.lesimprimantes3d.fr/wp-content/uploads/2013/06/glossaire-z.png)
 
 #### **Z axis** :
