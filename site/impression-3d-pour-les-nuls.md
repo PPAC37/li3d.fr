@@ -261,7 +261,7 @@ Développé par 3D Systems, le modelage à jets multiples permet des impressions
 
 #### **MSLA**, Masked SLA :
 
-[SLA](#glossaire-s) avec exposition sélective de la résine grâce à un masque créé par un écran  LCD.
+[SLA](#stéréolithographie-ou-sla-) avec exposition sélective de la résine grâce à un masque créé par un écran  LCD.
 
 <a name="glossaire-n"></a>
 ![glossaire n](https://www.lesimprimantes3d.fr/wp-content/uploads/2013/06/glossaire-n.png)
