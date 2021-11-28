@@ -25,3 +25,7 @@ filament: open
 
 `TRIGGERED` veux dire déclanché.
 `open` veux dire non déclanché.
+
+
+ il faudra installer le driver Windows (CH340 il me semble) disponible ici https://www.geeetech.com/forum/viewtopic.php?t=60612 .
+
