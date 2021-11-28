@@ -20,8 +20,10 @@ a revoir pour ajouter des "id" a chaque définition du glossaire pour faciliter 
 
 Les imprimantes 3D sont déjà en train de révolutionner le monde. Cette nouvelle technologie est d’ores et déjà accessible au plus grand nombre, que ce soit via des services d’impression 3D (en ligne ou en magasin) ou directement chez soi avec les modèles les plus abordables. Il convient donc de faire le point sur l’impression 3D pour bien comprendre de quoi il s’agit.
 
-Vous lirez ci-dessous une présentation assez simple qui explique les bases de l’impression 3D. Pour en savoir davantage et aborder la technique, vous pouvez [**lire ce guide du forum**](www.lesimprimantes3d.fr/forum/topic/10572-limpression-3d/).
+Vous lirez ci-dessous une présentation assez simple qui explique les bases de l’impression 3D. Pour en savoir davantage et aborder la technique, vous pouvez [**lire ce guide du forum**](https://www.lesimprimantes3d.fr/forum/topic/10572-limpression-3d/).
+definition
 
+<a name="definition"></a>
 **C’est quoi une imprimante 3D ?**
 ----------------------------------
 
@@ -33,6 +35,7 @@ Il est aujourd’hui possible d’imprimer des objets en plastique, en métal et
 
 Les objets à imprimer peuvent être modélisés avec un [logiciel 3D](https://www.lesimprimantes3d.fr/categorie/logiciel-3d/ "Logiciels pour imprimer en 3D | Les Imprimantes 3D .fr") ou tout simplement scannés avec un [scanner 3D](https://www.lesimprimantes3d.fr/categorie/scanner-3d/ "Scanner en 3D | Les Imprimantes 3D .fr"). En ce qui concerne les logiciels 3D, ils sont de plus en plus simples et certains s’utilisent même en ligne, via un simple navigateur internet. Les novices peuvent ainsi profiter de cette innovation et créer gratuitement des objets à imprimer en 3D.
 
+<a name="objets"></a>
 **Que peut-on imprimer avec une imprimante 3D ?**
 -------------------------------------------------
 
@@ -47,11 +50,16 @@ Les domaines d’applications sont donc infinis : l’industrie, la joaillerie,
 
 ### Vidéo d’une imprimante 3D à dépôt de fil plastique
 
+<p><span class="embed-youtube" style="text-align:center; display: block;"><div class="fluid-width-video-wrapper" style="padding-top: 56.2557%;"><iframe loading="lazy" class="youtube-player" src="https://www.youtube.com/embed/aXocA_T_YLU?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=fr-FR&amp;autohide=2&amp;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation" name="fitvid0"></iframe></div></span></p>
+
+<a name="magasins"></a>
 **Où acheter une imprimante 3D ?**
 ----------------------------------
 
 Quelques magasins commencent à proposer des imprimantes 3D tandis que des [boutiques spécialisées](https://www.lesimprimantes3d.fr/annuaire/categories/revendeurs "Revendeurs d'imprimante 3D") s’ouvrent au compte goutte. Il existe par contre des services d’impression 3D pour faire imprimer des objets, sur [internet](https://www.lesimprimantes3d.fr/annuaire/categories/service-impression-3d "Services en ligne d'impression 3D") ou en boutique.
 
+
+<a name="fabriquer"></a>
 **Comment fabriquer une imprimante ?**
 --------------------------------------
 
