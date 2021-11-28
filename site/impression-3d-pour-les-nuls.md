@@ -169,11 +169,8 @@ Atelier de fabrication communautaire ouvert à tous (bricoleurs, designers, arti
 Dépôt de filaments de plastique en fusion par une buse, le plastique fondu est déposé par un extrudeur. [Stratasys](https://www.lesimprimantes3d.fr/tag/stratasys/ "Stratasys sur Lesimprimantes3d.fr") est l’inventeur de cette technologie.
 
 #### **Feeder** :
-    
-    ![photo feeder imprimante 3D](https://www.lesimprimantes3d.fr/wp-content/uploads/2018/10/feeder.jpg)
-    
-    Feeder
-    
+
+![photo feeder imprimante 3D](https://www.lesimprimantes3d.fr/wp-content/uploads/2018/10/feeder.jpg "Feeder")
 
 Système composé d’un roulement, d’une roue crantée, d’un ressort et d’un moteur pas à pas pour pousser le filament jusqu’à la buse dans les montages de type [Bowden](#bowden-).
 
