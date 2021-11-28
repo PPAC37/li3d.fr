@@ -52,6 +52,7 @@ ton problème peut être lié a un mauvais serrage des vis de fixation de la rou
 
 ![](https://www.lesimprimantes3d.fr/forum/uploads/monthly_2020_01/image.png.46a135d77add7856413c74a9b4c13d42.png)
 
+Source image : https://www.lesimprimantes3d.fr/forum/topic/41043-filament-pla-qui-ne-sort-plus-de-la-buse-sous-240-250-%C2%B0/?do=findComment&comment=431336
 
 
 
@@ -63,5 +64,4 @@ ton problème peut être lié a un mauvais serrage des vis de fixation de la rou
 * https://www.lesimprimantes3d.fr/forum/topic/27509-notice-de-montage-d%C3%A9taill%C3%A9e-de-la-ender-3-pro/
 
 ### Sources :
-* https://www.lesimprimantes3d.fr/forum/topic/41043-filament-pla-qui-ne-sort-plus-de-la-buse-sous-240-250-%C2%B0/?do=findComment&comment=431336
-
+* ...
