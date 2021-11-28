@@ -29,3 +29,12 @@ filament: open
 
  il faudra installer le driver Windows (CH340 il me semble) disponible ici https://www.geeetech.com/forum/viewtopic.php?t=60612 .
 
+TODO :
+
+inversion de la logique
+
+parasitage  //#define ENDSTOP_NOISE_FEATURE 
+
+si capteur de fin de filament connecté sur un TFT lui même connecté en liason serai avec la carte mère
+
+...
