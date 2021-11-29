@@ -1,3 +1,5 @@
+https://www.lesimprimantes3d.fr/forum/topic/41886-exporter-un-profil-ultimaker-cura-au-format-html/?tab=comments#comment-438720
+
 Un export HTML ou .csv (plug-ins / greffon disponible via le "marché en ligne" de Cura ) au lieu d'un fichier d'extension .curaprofile permet d'avoir l'ensemble des paramètres du profil d'impression et du profil d'imprimante utilisé.
 
 Donc plus simple pour communiquer ces informations à une personne qui n'a pas la même imprimante que vous ...
@@ -55,3 +57,39 @@ Bonne continuation !
 
 **Modifié (le) Mai 17 par fran6p**  
 correcteur magique ;-)
+
+-----
+https://www.lesimprimantes3d.fr/forum/topic/41886-exporter-un-profil-ultimaker-cura-au-format-html/?do=findComment&comment=445678
+
+
+Bon dommage les "post traitement" sous Ultimaker Cura, ne semblent pas être visiblement dans l'export HTML ... Il faut donc aussi proposer un fichier .gcode pour contrôler cela en cas de problèmes ...  
+
+Un exemple de post-traitement que l'on ne verra pas dans l'export HTML car il faut regarder le fichier .gcode ou déjà connaitre l'interface de Ultimaer Cura :
+
+>  [](#) [](//www.lesimprimantes3d.fr/forum/?app=core&module=system&controller=content&do=find&content_class=forums_Topic&content_id=42527&content_commentid=445675)Le 21/06/2021 at 15:58, [PPAC](//www.lesimprimantes3d.fr/forum/?app=core&module=members&controller=profile&id=33940) a dit :
+> 
+> tu semble avoir un script de post traitement 
+> 
+> cf   
+> ;POSTPROCESSED
+> 
+> en debut du fichier .gcode 
+> 
+> a chaque couche tu a un 
+> 
+>   
+> ;TIME\_ELAPSED:195.669091  
+> **;TimeLapse Begin  
+> G1 F9000 X0 Y190 ;Park print head**  
+> M400 ;Wait for moves to finish  
+> M240 ;Snap Photo  
+> G4 P700 ;Wait for camera  
+> G0 X110.907 Y138.071; Restore position   
+> ;LAYER:1
+> 
+>  [![image.png.632215325da3738666e2e1476ae20cc1.png](https://www.lesimprimantes3d.fr/forum/uploads/monthly_2021_06/image.png.632215325da3738666e2e1476ae20cc1.png)](https://www.lesimprimantes3d.fr/forum/uploads/monthly_2021_06/image.png.632215325da3738666e2e1476ae20cc1.png "Agrandir l’image") 
+> 
+> Il faut cliquer sur [![image.png.1dfd26f367fb52cc04087b1db26807cd.png](https://www.lesimprimantes3d.fr/forum/uploads/monthly_2021_06/image.png.1dfd26f367fb52cc04087b1db26807cd.png)](https://www.lesimprimantes3d.fr/forum/uploads/monthly_2021_06/image.png.1dfd26f367fb52cc04087b1db26807cd.png "Agrandir l’image") et le supprimer ... puis retrancher et pendre le temps de visualiser l’aperçu avec de visible les déplacements....
+
+
+-----
