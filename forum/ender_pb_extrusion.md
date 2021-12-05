@@ -33,6 +33,9 @@ Il y a la bidouille / tenter de réparer avec de la colle et une/des agrafes cha
 
 Mais le choix d'un extrudeur avec un bras en métal semble la solution a long termes.
 
+(merci Idealnight https://www.lesimprimantes3d.fr/forum/topic/44997-probleme-apr%C3%A8s-6-mm-de-hauteur/?do=findComment&comment=471335 ) :
+https://www.amazon.fr/gp/product/B07P9WCSWN/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&tag=imp3dforum-21
+
 ## autre le serrage du bras 
 
 contrôle aussi que ce bras n'est pas trop serré et qu'il pivote librement quand le ressort est enlevé.
