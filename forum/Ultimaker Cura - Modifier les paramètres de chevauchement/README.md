@@ -9,9 +9,9 @@ Et je voulais partager et détailler l'utilisation les modificateurs de paramèt
 C'est en gros le même principe que pour l'utilisation des "Blocage des supports (E)"
 mais sur un objet 3D quand on utilise deux ou plusieur objet 3D pour modifier les paramétres de tranchage sur des zones spécifique de l'un de ces objet.
 
-Voir la vidéo Youtube 
+Voir une vidéo Youtube 
 [3 Cura Slicer Setting Tricks For Beginners](https://www.youtube.com/watch?v=su_m5zV9rvA&t=136s)
-de [CHEP](https://www.youtube.com/channel/UCsdc_0ZTXikARFEn2dRDJhg)
+de [CHEP](https://www.youtube.com/channel/UCsdc_0ZTXikARFEn2dRDJhg) qui montre l'utilisation des blocages de supports.
 
 
 
@@ -20,38 +20,32 @@ de [CHEP](https://www.youtube.com/channel/UCsdc_0ZTXikARFEn2dRDJhg)
 Comme on part de deux fichiers .stl (un pour l'objet en lui même et l'autre pour définir les zones du modificateur )
 il faut bien prendre le temps de les positionner correctement.
 
-![](images/001_placement_0.png
-)
+![](images/001_placement_0.png)
 
-![](images/001_placement_1_ctrl_a.png
-)
+Soit on déplace a la main ... pour arriver a cela 
 
-![](images/001_placement_2_ctrl_a_done.png
-)
+![](images/001_placement_6_degrouper_ctrl_shift_g_done.png)
 
-![](images/001_placement_3_fusion_ctrl_alt_g.png
-)
+Soit on utilise selectionner tout, fusion puis dégrouper pour les supperposer ... mais bien obtenir deux objets distinct.
 
-![](images/001_placement_4_fusion_ctrl_alt_g_done_.png
-)
+![](images/001_placement_1_ctrl_a.png)
 
-![](images/001_placement_5_degrouper_ctrl_shift_g_.png
-)
+<!--![](images/001_placement_2_ctrl_a_done.png)-->
 
+![](images/001_placement_3_fusion_ctrl_alt_g.png)
 
-![](images/001_placement_6_degrouper_ctrl_shift_g_done.png
-)
+![](images/001_placement_4_fusion_ctrl_alt_g_done_.png)
 
+![](images/001_placement_5_degrouper_ctrl_shift_g_.png)
 
-![]()
 
 
 ## Application d'un modificateur des paramètres de cheuvauchement sur un objet
 
-![](images/002_modificateur_0_selection_objet.png
-)
-![](images/002_modificateur_1_parametres_par_model.png
-)
+Ensuite les objet bien superposé, il faut selectionner celui qui portera les modificateurs.
+![](images/002_modificateur_0_selection_objet.png)
+
+![](images/002_modificateur_1_parametres_par_model.png)
 
 ![](images/002_modificateur_3_modifier_les_param_chev.png
 )
