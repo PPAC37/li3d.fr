@@ -1,6 +1,53 @@
 https://www.lesimprimantes3d.fr/forum/topic/44815-polargraph-drawbot-scriboo-makelangelo/#comment-473115
 # Polargraph (Drawbot Scriboo, Makelangelo, ...)
 
+## BOM
+
+Alimentation 12V et 5V ( Recyclage d'un bloc d'alimentation ATX de PC ) + (1 cable jumper pour connecter PIN PS_ON a GND pour "allumer" l'alimentation.) + cordon secteur 220V AC 
++ Embout Molex femmel x2 pour ne pas couper ?
+
+
+Arduino Mega 2560 + cable USB
+
+https://reprap.org/wiki/RAMPS_1.4 
+
+https://reprap.org/wiki/RepRapDiscount_Full_Graphic_Smart_Controller ( enable the REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER in the "Configuration.h”. ) + cables de connexion + adaptateur pour RAMPS 1.4
+
+Servo 9G + Câble 3 pines Dupont 2.54mm 70 cm  + connecteur 3p
+
+DRIVER MOTEUR PAS À PAS DRV8825 ou 4A998
+
+Moteur 1.8° par pas ...
+
+Capteur de fin de course mécanique (Endstop) avec cable 2 pines Dupont 2.54 mm
+
+Câble moteur nema ( JST PH 6p 2mm - HX 2.54mm 4p ) 1 mètre
+
+Courrois GT2 3mm de ? 3 metres
+
+Poulie GT3 30 dents 
+
+fils / cable ? 10 AWG 
+
+Kit de sertisage Dupont 2.54mm ( 1 pins) (pour alimenter en +5V le servo)
+
+Ajout perso ( Barrette LED RGB 12V + resitances 330 Ohms ) ?
+
+Impression 3D (porte moteur, support Arduino Mega, porte endstop, gondole ou porte plume )
+
+Planchette de contreplaqué de 30cm * 700 cm * 1.2 cm ?
+
+Vis
+
+### Outils : 
+Pince sertisage Dupond SN2 
+Pince a dénuder 
+...
+Tournevis plat 2mm
+...
+
+![PIN OUT RAMPS 1.4](https://reprap.org/mediawiki/images/c/ca/Arduinomega1-4connectors.png "PIN OUT RAMPS 1.4")
+
 ## Choix du firmware
 
 bien prendre https://github.com/MarginallyClever/Marlin-polargraph/tree/polargraph (la bonne branche) ... car lors de mes essais la branche https://github.com/MarlinFirmware/Marlin/tree/2.0.9.2 compile avec des warnings et ne fait pas fonctionner les moteurs...
