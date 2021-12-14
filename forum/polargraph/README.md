@@ -1,7 +1,9 @@
 https://www.lesimprimantes3d.fr/forum/topic/44815-polargraph-drawbot-scriboo-makelangelo/#comment-473115
 # Polargraph (Drawbot Scriboo, Makelangelo, ...)
 
+## Choix du firmware
 
+bien prendre https://github.com/MarginallyClever/Marlin-polargraph/tree/polargraph (la bonne branche) ... car lors de mes essais la branche https://github.com/MarlinFirmware/Marlin/tree/2.0.9.2 compile avec des warnings et ne fait pas fonctionner les moteurs...
 
 ## Connecter les endstops
 
