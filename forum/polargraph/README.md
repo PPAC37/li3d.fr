@@ -45,6 +45,8 @@ The endstops are the switches that tell the firmware when one of its axis (X, Y,
 Il faut ajouter une source 5V sinon lors du fonctionnement du servo, si on utilise un cavalier/Jumper pour alimenter les PINs 5V du/des servo avec le VCC de la carte RAMPS,
 le servo vas drainer une bonne partie du 5V et l'ecran aura un affichage d'intensité fluctuant voir cela provoquera un reboot.
 
+Et dans mon cas (RAMPS 1.4) si j'envoie la commande g-code "M280 P0 S180" puis "M280 P0 S90" j'ai bien mon servo 9G qui bouge... en position 180 puis 90 ...  ( [M280: Servo Position](https://marlinfw.org/docs/gcode/M280.html) )
+
 http://lokspace.eu/adding-9g-servo-based-autolevel-sensor-to-your-3d-printer/
 
 ### WIRING
