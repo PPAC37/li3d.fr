@@ -5,6 +5,7 @@ https://www.lesimprimantes3d.fr/forum/topic/44815-polargraph-drawbot-scriboo-mak
 
 bien prendre https://github.com/MarginallyClever/Marlin-polargraph/tree/polargraph (la bonne branche) ... car lors de mes essais la branche https://github.com/MarlinFirmware/Marlin/tree/2.0.9.2 compile avec des warnings et ne fait pas fonctionner les moteurs...
 
+
 ## Connecter les endstops
 
 https://reprap.org/wiki/RAMPS_1.4
@@ -44,6 +45,13 @@ The endstops are the switches that tell the firmware when one of its axis (X, Y,
 ## Connecter le Servo 9G sur le RAMPS
 Il faut ajouter une source 5V sinon lors du fonctionnement du servo, si on utilise un cavalier/Jumper pour alimenter les PINs 5V du/des servo avec le VCC de la carte RAMPS,
 le servo vas drainer une bonne partie du 5V et l'ecran aura un affichage d'intensité fluctuant voir cela provoquera un reboot.
+
+
+Éventuellement activer PINS_DEBUGGING donc Configuration_adv.h pour avoir la commande g-code M43 afin de voir quelle sont les attributions des pins (chez moi cela colle bien Pin 11 pour le servo0 :
+
+```
+22:07:46.845 : PIN:  11   Port: B5        SERVO0_PIN                             Output = 0    TIMER1A   PWM:  2000    WGM: 4    COM1A: 0    CS: 2    TCCR1A: 0    TCCR1B: 10    TIMSK1: 2   non-standard PWM mode   compare interrupt enabled
+```
 
 Et dans mon cas (RAMPS 1.4) si j'envoie la commande g-code "M280 P0 S180" puis "M280 P0 S90" j'ai bien mon servo 9G qui bouge... en position 180 puis 90 ...  ( [M280: Servo Position](https://marlinfw.org/docs/gcode/M280.html) )
 
