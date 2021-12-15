@@ -150,3 +150,31 @@ If you use different kind of PSU, which has just 12V output, you can get 5V by u
 Now it's time to connect the servo itself. You might need to extend the servo wires (they are usually pretty short).
 Connect the servo to the first column of pins of the "SERVOS" connector - as shown on the picture. You have to check the color coding of your servo's wires. On mine, the orange wire was "Signal", and goes to D11, the red is "+" and goes to "5V", and the brown is "-" and goes to GND.
 The switch that will be used is the regular endstop switch, and there is no need to connect it to different pins - leave it as is - connected to the Z_MIN endstop pins.
+
+
+## Ajout d'une bar LED ... A REVOIR
+
+Comme j'ai qui traine un morceau de bar LED de [RGB LED ADD-ON FOR K8400 - VERTEX 3D PRINTER](https://www.velleman.eu/products/view/?id=430100 "RGB LED ADD-ON FOR K8400 - VERTEX 3D PRINTER") 
+![](https://www.velleman.eu/images/products/0/k8403.jpg)
+Qui en principe fonctionne en 12V via l'utilisation de MOSFET avec l'ajout de resistences de 330Ohms.
+
+Et comme sur le Polargraph je n'utilise pas les sortie de controlle de chauffe 12 ( Tétes et Plateau chauffant) je me dit que je vais profiter des ses sortie 12V ...
+Mais je dois encor déterminer si le fait d'avoir un commun sur les BAR LED ne posera pas problème.
+Et je dois trouver un montage propre et qui evite les courts circuits ...
+
+Configuration.h
+```
+#define RGB_LED
+//#define RGBW_LED
+
+#if EITHER(RGB_LED, RGBW_LED)
+
+// Comme ma bar LED a besoin d'etre en 12V ... je vais tester avec les mosfet normalement pour la chauffe (tetes et bed) 
+// D10, D9, D8 (enfin ... c'est a tester car le + du moins - je n'ai pas encore identifié le commun .... et il faut ajouter des Resistance de 330 Ohms)
+  #define RGB_LED_R_PIN 10
+  #define RGB_LED_G_PIN 9
+  #define RGB_LED_B_PIN 8
+  //#define RGB_LED_W_PIN -1
+#endif
+```
+
