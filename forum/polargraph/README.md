@@ -187,6 +187,9 @@ Configuration.h
 ```
 
 https://www.velleman.eu/downloads/0/information/resistor_colour_code.pdf
+
+<div>
+  <!--
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -211,8 +214,10 @@ https://www.velleman.eu/downloads/0/information/resistor_colour_code.pdf
 .tg .tg-i81m{background-color:#ffffff;text-align:center;vertical-align:top}
 .tg .tg-sh07{background-color:#cbcefb;text-align:center;vertical-align:top}
 </style>
+-->
 <table class="tg">
-<thead>
+<!--
+<thead>-->
   <tr>
     <th class="tg-7btt" colspan="3" rowspan="2">Color</th>
     <th class="tg-7btt" colspan="3">DIGITS</th>
@@ -226,10 +231,12 @@ https://www.velleman.eu/downloads/0/information/resistor_colour_code.pdf
     <th class="tg-amwm">stripe</th>
     <th class="tg-amwm">4th stripe</th>
   </tr>
+<!--
 </thead>
 <tbody>
+-->
   <tr>
-    <td class="tg-ksrh" style="background-color:#009901;"></td>
+    <td class="tg-ksrh"></td>
     <td class="tg-0lax">Black</td>
     <td class="tg-baqh">Noir</td>
     <td class="tg-c3ow">0</td>
@@ -279,7 +286,7 @@ https://www.velleman.eu/downloads/0/information/resistor_colour_code.pdf
     <td class="tg-baqh"></td>
   </tr>
   <tr>
-    <td class="tg-coud"></td>
+    <td class="tg-coud" style="background-color:#009901;"></td>
     <td class="tg-0lax">Green</td>
     <td class="tg-baqh">Vert</td>
     <td class="tg-baqh">5</td>
@@ -348,8 +355,12 @@ https://www.velleman.eu/downloads/0/information/resistor_colour_code.pdf
     <td class="tg-baqh">x 0.01</td>
     <td class="tg-baqh">10%</td>
   </tr>
+<!--
 </tbody>
+-->
 </table>
+</div>
+
 
 ## Ecart moteurs
 Du centre d'un moteur a l'autre centre moteur  
