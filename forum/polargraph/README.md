@@ -156,10 +156,13 @@ The switch that will be used is the regular endstop switch, and there is no need
 
 Comme j'ai qui traine un morceau de bar LED de [RGB LED ADD-ON FOR K8400 - VERTEX 3D PRINTER](https://www.velleman.eu/products/view/?id=430100 "RGB LED ADD-ON FOR K8400 - VERTEX 3D PRINTER") 
 ![](https://www.velleman.eu/images/products/0/k8403.jpg)
-Qui en principe fonctionne en 12V via l'utilisation de MOSFET avec l'ajout de resistences de 330Ohms.
 
-Et comme sur le Polargraph je n'utilise pas les sortie de controlle de chauffe 12 ( Tétes et Plateau chauffant) je me dit que je vais profiter des ses sortie 12V ...
-Mais je dois encor déterminer si le fait d'avoir un commun sur les BAR LED ne posera pas problème.
+Qui en principe fonctionne en 12V via l'utilisation de MOSFET avec l'ajout de resistences de 330Ohms (et de diodes pour sécuriser ? )....
+
+Et comme sur le Polargraph je n'utilise pas les sortie de chauffes ( Tétes et Plateau chauffant) et que j'allimente en 12V.
+
+Je me dit que je vais profiter des ses sortie 12V ...  
+Mais je dois encor déterminer si le fait d'avoir un commun sur les BAR LED ne posera pas problème.  
 Et je dois trouver un montage propre et qui evite les courts circuits ...
 
 Configuration.h
@@ -170,7 +173,7 @@ Configuration.h
 #if EITHER(RGB_LED, RGBW_LED)
 
 // Comme ma bar LED a besoin d'etre en 12V ... je vais tester avec les mosfet normalement pour la chauffe (tetes et bed) 
-// D10, D9, D8 (enfin ... c'est a tester car le + du moins - je n'ai pas encore identifié le commun .... et il faut ajouter des Resistance de 330 Ohms)
+// D10, D9, D8 (enfin ... c'est a tester car le + du moins - je n'ai pas encore identifié le commun .... et il faut ajouter des Resistance de 330 Ohms et des diodes de protection ... ?)
   #define RGB_LED_R_PIN 10
   #define RGB_LED_G_PIN 9
   #define RGB_LED_B_PIN 8
