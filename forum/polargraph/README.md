@@ -159,8 +159,8 @@ Comme j'ai qui traine un morceau de bar LED de [RGB LED ADD-ON FOR K8400 - VERTE
 
 
 Specifications  
-power consumption: 470 mA
-
+power consumption: 470 mA  
+https://www.velleman.eu/downloads/0/assembly/assemblymanual_k8403_en.pdf
 
 Qui en principe fonctionne en 12V via l'utilisation de MOSFET avec l'ajout de resistences de 330Ohms (et de diodes pour sécuriser ? )....
 
