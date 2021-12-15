@@ -21,7 +21,7 @@ Moteur 1.8° par pas ...
 
 Capteur de fin de course mécanique (Endstop) avec cable 2 pines Dupont 2.54 mm
 
-Câble moteur nema ( JST PH 6p 2mm - HX 2.54mm 4p ) 1 mètre
+Câble moteur nema ( JST PH 6p 2mm - <strike><del>HX 2.54mm</del></strike> <b>Dupont 2.54mm (cf RAMPS)</b>4p ) 1 mètre
 
 Courrois GT2 3mm de ? 3 metres
 
@@ -35,7 +35,7 @@ Ajout perso ( Barrette LED RGB 12V + resitances 330 Ohms ) ?
 
 Impression 3D (porte moteur, support Arduino Mega, porte endstop, gondole ou porte plume )
 
-Planchette de contreplaqué de 30cm * 700 cm * 1.2 cm ?
+Planchette de contreplaqué de 10cm * 120 cm * 1.2 cm ?
 
 Vis
 
@@ -185,4 +185,48 @@ Configuration.h
   //#define RGB_LED_W_PIN -1
 #endif
 ```
+
+## Ecart moteurs
+Du centre d'un moteur a l'autre centre moteur  
+Moi j'ai actuellement 106.4 cm car je voulais plus que le ~ 65cm du makelangelo v5  
+Et donc je ne sais pas encore quelle distance de courroies il me faut ...
+
+et forcement cela demande d'affiner le Configuration.h
+
+```
+#define POLARGRAPH_MAX_BELT_LEN 1035.0 \\ ??? a voir !
+```
+
+```
+#define X_BED_SIZE 1064.0 // the width, Measured motor center to center, that’s 650 on the Makelangelo5.
+#define Y_BED_SIZE 1000.0 // ?? Makelangelo 5 height = 1000, or 1m. 
+```
+
+```
+#define X_MIN_POS ( – (X_BED_SIZE/2) )  
+#define Y_MIN_POS ( - (Y_BED_SIZE/2) )
+```
+The bottom-left corner of the drawing area would then be – X_BED_SIZE/2 and -Y_BED_SIZE/2, or -325 and -500, respectively.
+
+```
+#define X_MAX_POS X_BED_SIZE/2
+#define Y_MAX_POS Y_BED_SIZE/2
+```
+The top-right corner of the drawing area would then be X_BED_SIZE/2 and Y_BED_SIZE/2, or 325 and 500, respectively on the Makelangelo 5.
+
+```
+#define BED_CENTER_AT_0_0
+```
+
+```
+#define MANUAL_X_HOME_POS 0
+#define MANUAL_Y_HOME_POS ( Y_MAX_POS - ( sqrt( sq(POLARGRAPH_MAX_BELT_LEN) - sq(X_BED_SIZE/2) ) ) )
+```
+Remember using the triangle adjacent and the opposite to get the hypoteneuse? well here we use the opposite (machine bed size) and the hypoteneuse (the belt length) to get the adjacent, and then adjust by the Y_MAX_POS.
+
+Note that the final value has to be inside the allowable drawing area of the machine – you can’t home to a spot that’s outside the printable area. That means the -Y_BED_SIZE/2 has to be a larger negative number than the MANUAL_Y_HOME_POS. With my settings -Y_BED_SIZE/2 is -500 and everything is fine.
+
+
+
+
 
