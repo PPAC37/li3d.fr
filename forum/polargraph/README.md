@@ -102,6 +102,38 @@ le servo vas drainer une bonne partie du 5V et l'ecran aura un affichage d'inten
 
 Et dans mon cas (RAMPS 1.4) si j'envoie la commande g-code "M280 P0 S180" puis "M280 P0 S90" j'ai bien mon servo 9G qui bouge... en position 180 puis 90 ...  ( [M280: Servo Position](https://marlinfw.org/docs/gcode/M280.html) )
 
+
+https://www.marginallyclever.com/2021/10/friday-facts-4-how-to-marlin-polargraph/ Final thoughts :
+
+By default Makelangelo software uses a servo position of 90 (middle of the range) for pen up and 40 for pen down. Keep that in mind when you install the servo horn (the finger thing that lifts).
+?
+```
+M280 P0 S90 ; Pen Up
+M280 P0 S40 ; Pen Down
+
+```
+
+Pour ajouter des commande perso ( Configuration.h )
+```
+#define CUSTOM_MENU_MAIN
+#if ENABLED(CUSTOM_MENU_MAIN)
+  //#define CUSTOM_MENU_MAIN_TITLE "Custom Commands"
+  #define CUSTOM_MENU_MAIN_SCRIPT_DONE "M117 User Script Done"
+  #define CUSTOM_MENU_MAIN_SCRIPT_AUDIBLE_FEEDBACK
+  //#define CUSTOM_MENU_MAIN_SCRIPT_RETURN   // Return to status screen after a script
+  #define CUSTOM_MENU_MAIN_ONLY_IDLE         // Only show custom menu when the machine is idle
+
+  #define MAIN_MENU_ITEM_1_DESC "Pen Up : M280 P0 S90"
+  #define MAIN_MENU_ITEM_1_GCODE "M280 P0 S90"
+  //#define MAIN_MENU_ITEM_1_CONFIRM          // Show a confirmation dialog before this action
+
+  #define MAIN_MENU_ITEM_2_DESC "Pen Down : M280 P0 S40"
+  #define MAIN_MENU_ITEM_2_GCODE "M280 P0 S40" 
+  //#define MAIN_MENU_ITEM_2_CONFIRM
+  ...
+#endif
+```
+
 http://lokspace.eu/adding-9g-servo-based-autolevel-sensor-to-your-3d-printer/
 
 ### WIRING
