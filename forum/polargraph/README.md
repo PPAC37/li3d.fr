@@ -186,6 +186,171 @@ Configuration.h
 #endif
 ```
 
+https://www.velleman.eu/downloads/0/information/resistor_colour_code.pdf
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-coud{background-color:#009901;text-align:center;vertical-align:top}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-y9zf{background-color:#643403;border-color:inherit;color:#643403;text-align:center;vertical-align:top}
+.tg .tg-s3tw{background-color:#cd9934;text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-iuu5{background-color:#00009b;text-align:center;vertical-align:top}
+.tg .tg-lbzb{background-color:#fe0000;text-align:center;vertical-align:top}
+.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-ksrh{background-color:#000000;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-8led{background-color:#f56b00;text-align:center;vertical-align:top}
+.tg .tg-furw{background-color:#f8ff00;text-align:center;vertical-align:top}
+.tg .tg-np64{background-color:#6200c9;text-align:center;vertical-align:top}
+.tg .tg-4luf{background-color:#656565;text-align:center;vertical-align:top}
+.tg .tg-i81m{background-color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-sh07{background-color:#cbcefb;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-7btt" colspan="3" rowspan="2">Color</th>
+    <th class="tg-7btt" colspan="3">DIGITS</th>
+    <th class="tg-7btt">Multiplier</th>
+    <th class="tg-amwm">Tolerance</th>
+  </tr>
+  <tr>
+    <th class="tg-amwm">1st</th>
+    <th class="tg-amwm">2nd</th>
+    <th class="tg-amwm">3rd</th>
+    <th class="tg-amwm">stripe</th>
+    <th class="tg-amwm">4th stripe</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-ksrh"></td>
+    <td class="tg-0lax">Black</td>
+    <td class="tg-baqh">Noir</td>
+    <td class="tg-c3ow">0</td>
+    <td class="tg-baqh">0</td>
+    <td class="tg-c3ow">0</td>
+    <td class="tg-c3ow">x 1</td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-y9zf"></td>
+    <td class="tg-0lax">Brown</td>
+    <td class="tg-baqh">Brun/Marron</td>
+    <td class="tg-c3ow">1</td>
+    <td class="tg-baqh">1</td>
+    <td class="tg-c3ow">1</td>
+    <td class="tg-c3ow">x 10</td>
+    <td class="tg-baqh">1%</td>
+  </tr>
+  <tr>
+    <td class="tg-lbzb"></td>
+    <td class="tg-0lax">Red</td>
+    <td class="tg-baqh">Rouge</td>
+    <td class="tg-baqh">2</td>
+    <td class="tg-baqh">2</td>
+    <td class="tg-baqh">2</td>
+    <td class="tg-baqh">x 100</td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-8led"></td>
+    <td class="tg-0lax">Orange</td>
+    <td class="tg-baqh">Orange</td>
+    <td class="tg-baqh">3</td>
+    <td class="tg-baqh">3</td>
+    <td class="tg-baqh">3</td>
+    <td class="tg-baqh">x 1 000</td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-furw"></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal">Yellow</span></td>
+    <td class="tg-baqh">Jaune</td>
+    <td class="tg-baqh">4</td>
+    <td class="tg-baqh">4</td>
+    <td class="tg-baqh">4</td>
+    <td class="tg-baqh">x 10 000</td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-coud"></td>
+    <td class="tg-0lax">Green</td>
+    <td class="tg-baqh">Vert</td>
+    <td class="tg-baqh">5</td>
+    <td class="tg-baqh">5</td>
+    <td class="tg-baqh">5</td>
+    <td class="tg-baqh">x 100 000</td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-iuu5"></td>
+    <td class="tg-0lax">Blue</td>
+    <td class="tg-baqh">Bleu</td>
+    <td class="tg-baqh">6</td>
+    <td class="tg-baqh">6</td>
+    <td class="tg-baqh">6</td>
+    <td class="tg-baqh">x 1 000 000</td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-np64"></td>
+    <td class="tg-0lax">Purple</td>
+    <td class="tg-baqh">Violet/Pourpre</td>
+    <td class="tg-baqh">7</td>
+    <td class="tg-baqh">7</td>
+    <td class="tg-baqh">7</td>
+    <td class="tg-baqh">-</td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-4luf"></td>
+    <td class="tg-0lax">Grey</td>
+    <td class="tg-baqh">Gris</td>
+    <td class="tg-baqh">8</td>
+    <td class="tg-baqh">8</td>
+    <td class="tg-baqh">8</td>
+    <td class="tg-baqh">-</td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-i81m"></td>
+    <td class="tg-0lax">White</td>
+    <td class="tg-baqh">Blanc</td>
+    <td class="tg-baqh">9</td>
+    <td class="tg-baqh">9</td>
+    <td class="tg-baqh">9</td>
+    <td class="tg-baqh">-</td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-s3tw"></td>
+    <td class="tg-0lax">Gold</td>
+    <td class="tg-baqh">Or</td>
+    <td class="tg-baqh">-</td>
+    <td class="tg-baqh">-</td>
+    <td class="tg-baqh">-</td>
+    <td class="tg-baqh">x 0.1</td>
+    <td class="tg-baqh">5%</td>
+  </tr>
+  <tr>
+    <td class="tg-sh07"></td>
+    <td class="tg-0lax">Silver</td>
+    <td class="tg-baqh">Argent</td>
+    <td class="tg-baqh">-</td>
+    <td class="tg-baqh">-</td>
+    <td class="tg-baqh">-</td>
+    <td class="tg-baqh">x 0.01</td>
+    <td class="tg-baqh">10%</td>
+  </tr>
+</tbody>
+</table>
+
 ## Ecart moteurs
 Du centre d'un moteur a l'autre centre moteur  
 Moi j'ai actuellement 106.4 cm car je voulais plus que le ~ 65cm du makelangelo v5  
@@ -203,10 +368,10 @@ et forcement cela demande d'affiner le Configuration.h
 ```
 
 ```
-#define X_MIN_POS ( – (X_BED_SIZE/2) )  
+#define X_MIN_POS ( - (X_BED_SIZE/2) )  
 #define Y_MIN_POS ( - (Y_BED_SIZE/2) )
 ```
-The bottom-left corner of the drawing area would then be – X_BED_SIZE/2 and -Y_BED_SIZE/2, or -325 and -500, respectively.
+The bottom-left corner of the drawing area would then be - X_BED_SIZE/2 and -Y_BED_SIZE/2, or -325 and -500, respectively.
 
 ```
 #define X_MAX_POS X_BED_SIZE/2
