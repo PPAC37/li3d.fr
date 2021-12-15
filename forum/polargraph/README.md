@@ -249,7 +249,7 @@ https://www.velleman.eu/downloads/0/information/resistor_colour_code.pdf
     <td class="tg-baqh">1%</td>
   </tr>
   <tr>
-    <td class="tg-lbzb"><p style="color:#ff0000;">-</p></td>
+    <td class="tg-lbzb"><span style="color: #ff2a00; background-color:#ff2a00;">-</span></td>
     <td class="tg-0lax">Red</td>
     <td class="tg-baqh">Rouge</td>
     <td class="tg-baqh">2</td>
