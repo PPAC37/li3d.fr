@@ -113,7 +113,7 @@ M280 P0 S40 ; Pen Down
 
 ```
 
-Pour ajouter des commande perso ( Configuration.h )
+Pour ajouter des commande perso ( Configuration_adv.h )
 ```
 #define CUSTOM_MENU_MAIN
 #if ENABLED(CUSTOM_MENU_MAIN)
