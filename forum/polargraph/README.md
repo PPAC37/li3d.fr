@@ -157,6 +157,11 @@ The switch that will be used is the regular endstop switch, and there is no need
 Comme j'ai qui traine un morceau de bar LED de [RGB LED ADD-ON FOR K8400 - VERTEX 3D PRINTER](https://www.velleman.eu/products/view/?id=430100 "RGB LED ADD-ON FOR K8400 - VERTEX 3D PRINTER") 
 ![](https://www.velleman.eu/images/products/0/k8403.jpg)
 
+
+Specifications  
+power consumption: 470 mA
+
+
 Qui en principe fonctionne en 12V via l'utilisation de MOSFET avec l'ajout de resistences de 330Ohms (et de diodes pour sécuriser ? )....
 
 Et comme sur le Polargraph je n'utilise pas les sortie de chauffes ( Tétes et Plateau chauffant) et que j'allimente en 12V.
