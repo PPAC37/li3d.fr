@@ -229,7 +229,7 @@ https://www.velleman.eu/downloads/0/information/resistor_colour_code.pdf
 </thead>
 <tbody>
   <tr>
-    <td class="tg-ksrh"></td>
+    <td class="tg-ksrh" style="background-color:#009901;"></td>
     <td class="tg-0lax">Black</td>
     <td class="tg-baqh">Noir</td>
     <td class="tg-c3ow">0</td>
@@ -239,7 +239,7 @@ https://www.velleman.eu/downloads/0/information/resistor_colour_code.pdf
     <td class="tg-baqh"></td>
   </tr>
   <tr>
-    <td class="tg-y9zf"></td>
+    <td class="tg-y9zf" style="background-color:#643403;"></td>
     <td class="tg-0lax">Brown</td>
     <td class="tg-baqh">Brun/Marron</td>
     <td class="tg-c3ow">1</td>
@@ -249,7 +249,7 @@ https://www.velleman.eu/downloads/0/information/resistor_colour_code.pdf
     <td class="tg-baqh">1%</td>
   </tr>
   <tr>
-    <td class="tg-lbzb"></td>
+    <td class="tg-lbzb"><p style="background-color:#ff0000;">&nbsp</p></td>
     <td class="tg-0lax">Red</td>
     <td class="tg-baqh">Rouge</td>
     <td class="tg-baqh">2</td>
