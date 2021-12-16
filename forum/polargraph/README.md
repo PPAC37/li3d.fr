@@ -402,7 +402,13 @@ Remember using the triangle adjacent and the opposite to get the hypoteneuse? we
 
 Note that the final value has to be inside the allowable drawing area of the machine – you can’t home to a spot that’s outside the printable area. That means the -Y_BED_SIZE/2 has to be a larger negative number than the MANUAL_Y_HOME_POS. With my settings -Y_BED_SIZE/2 is -500 and everything is fine.
 
+## Ref
 
+https://github.com/MarginallyClever/Marlin-polargraph/tree/polargraph
+
+https://github.com/MarginallyClever/Makelangelo-software/releases/tag/7.28.2
+
+https://www.marginallyclever.com/2014/10/how-to-fix-9-common-polargraph-drawing-problems/
 
 
 
